@@ -32,6 +32,7 @@ body {
 }
 
 .container {
+    background-size: 100% 100%;
     height: 100%;
     display: flex;
     overflow: hidden;
@@ -57,6 +58,7 @@ body {
 /* Header */
 .header {
     height: var(--header-height);
+    min-height: auto;
     text-align: center;
 }
 
@@ -101,7 +103,7 @@ body {
 }
 
 .btn {
-    width: 208px;
+    max-width: 208px;
     height: 50px;
     border: none;
     border-radius: 12px;
@@ -114,14 +116,14 @@ body {
 
 .btn--yes {
     position: absolute;
-    top: 198px;
+    top: 100px;
     left: 420px;
     cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }
 
 .btn--no {
     position: absolute;
-    top: 198px;
+    top: 100px;
     right: 420px;
     cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }
@@ -305,7 +307,7 @@ body {
   }
 }
 .img-sorry img{
-    height: 300px;
-    margin: 0px;
-    padding: 0px;
+   max-height: 200px;
+   top: 100px;
+   position: absolute;
 }
